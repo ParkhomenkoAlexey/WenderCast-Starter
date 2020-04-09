@@ -26,6 +26,7 @@
 		4DFFBA931BFAD28600A24C84 /* NewsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBA921BFAD28600A24C84 /* NewsStore.swift */; };
 		958AD3C62158BA76000C57A4 /* WenderSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AD3C52158BA76000C57A4 /* WenderSafariViewController.swift */; };
 		D215FCEBAFE3D07F48CA06A1 /* Pods_WenderCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296B748744B86592696A28CF /* Pods_WenderCast.framework */; };
+		F0390A01243F2F0C00F80C15 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0390A00243F2F0C00F80C15 /* PushNotificationSender.swift */; };
 		F0733743243F2BBA00EA5FB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0733742243F2BBA00EA5FB0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		958AD3C52158BA76000C57A4 /* WenderSafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WenderSafariViewController.swift; sourceTree = "<group>"; };
 		B55818BA40E07DBB4704796D /* Pods-WenderCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WenderCast.debug.xcconfig"; path = "Target Support Files/Pods-WenderCast/Pods-WenderCast.debug.xcconfig"; sourceTree = "<group>"; };
 		D529C2204E94A093CDEED26A /* Pods-WenderCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WenderCast.release.xcconfig"; path = "Target Support Files/Pods-WenderCast/Pods-WenderCast.release.xcconfig"; sourceTree = "<group>"; };
+		F0390A00243F2F0C00F80C15 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
 		F0733741243F211800EA5FB0 /* WenderCast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WenderCast.entitlements; sourceTree = "<group>"; };
 		F0733742243F2BBA00EA5FB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 			children = (
 				F0733741243F211800EA5FB0 /* WenderCast.entitlements */,
 				4DFFBA721BFACF0700A24C84 /* AppDelegate.swift */,
+				F0390A00243F2F0C00F80C15 /* PushNotificationSender.swift */,
 				4DFFBA761BFACF0700A24C84 /* Main.storyboard */,
 				4DFFBA8A1BFAD1D400A24C84 /* Models */,
 				4DFFBA8B1BFAD1D400A24C84 /* Views */,
@@ -320,6 +323,7 @@
 				4DBF12A01C010CA20020F03C /* DateParser.swift in Sources */,
 				4DAE59F11C02D925002EED61 /* NewsItem.swift in Sources */,
 				4DFFBA731BFACF0700A24C84 /* AppDelegate.swift in Sources */,
+				F0390A01243F2F0C00F80C15 /* PushNotificationSender.swift in Sources */,
 				4DBF12A21C0119940020F03C /* PodcastItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

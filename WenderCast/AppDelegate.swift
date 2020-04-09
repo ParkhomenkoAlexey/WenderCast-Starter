@@ -4,6 +4,7 @@ import UIKit
 import SafariServices
 import UserNotifications
 import Firebase
+import FirebaseMessaging
 
 enum Identifiers {
   static let viewAction = "VIEW_IDENTIFIER"
@@ -18,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                    didFinishLaunchingWithOptions
     launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     FirebaseApp.configure()
+    Messaging.messaging().delegate = self
     UITabBar.appearance().barTintColor = UIColor.themeGreenColor
     UITabBar.appearance().tintColor = UIColor.white
     registerForPushNotifications()
@@ -74,5 +76,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     didFailToRegisterForRemoteNotificationsWithError error: Error) {
     print("Failed to register: \(error)")
   }
+}
+
+extension AppDelegate: MessagingDelegate {
+    
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
+        print("\nFirebase regisration token: \(fcmToken)\n")
+    }
 }
 
