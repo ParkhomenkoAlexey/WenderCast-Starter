@@ -3,6 +3,7 @@
 import UIKit
 import SafariServices
 import UserNotifications
+import Firebase
 
 enum Identifiers {
   static let viewAction = "VIEW_IDENTIFIER"
@@ -16,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions
     launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+    FirebaseApp.configure()
     UITabBar.appearance().barTintColor = UIColor.themeGreenColor
     UITabBar.appearance().tintColor = UIColor.white
     registerForPushNotifications()

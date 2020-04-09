@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>858264329389-lp2u6g9f1ootg2uji2n2fnnog6nh18nn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.858264329389-lp2u6g9f1ootg2uji2n2fnnog6nh18nn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCLrPvq1OGLi76UGusnkLzl_bQFRBQs1-Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>858264329389</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alexeyParkhomenko.WenderCast</string>
+	<key>PROJECT_ID</key>
+	<string>wendercast-e765c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wendercast-e765c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:858264329389:ios:8a33bb5bf5b180645bfa24</string>
+	<key>DATABASE_URL</key>
+	<string>https://wendercast-e765c.firebaseio.com</string>
+</dict>
+</plist>
